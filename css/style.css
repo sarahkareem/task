@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
     color: #222222;
-    text-align: center
+    text-align: center;
 }
 a, a:hover, a:focus, a:active{
     outline: none;
@@ -120,7 +120,7 @@ hr.botm-line {
 {
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 300;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
@@ -141,6 +141,9 @@ hr.botm-line {
 	background-size: cover;
 	min-height: 650px;
 	position: relative;
+}
+.im{
+    padding-top: 30px;
 }
 .bg-color{
 	background-color: RGBA(13, 70, 83, 0.78);
@@ -184,15 +187,18 @@ hr.botm-line {
 /*services*/
 .icon i{
 	color: #0cb8b6;
-	font-size: 45px;
-    margin-bottom: 25px;
-    text-align: center;
+	font-size: 40px;
+    text-align:center;
+    margin-top: -10px;
+
 }
 .service-info{
 	margin-bottom: 20px;
 }
 .icon-info h4{
-	padding-bottom: 15px;
+    padding-bottom: 20px;
+
+ 
 }
 .icon-info p{
 	font-size: 15px !important;
